@@ -369,6 +369,7 @@
     * driver文件
         * malixx.so    /usr/lib/x11/libmalixxx　（这个后来经过测试没有也可以）
         * armsoc_drv.so /usr/lib/xorg/modules/drivers/armsoc
+    * *这一部分我当时是从官方的Example中直接复制出来的，后来才发现在官方的[meta-xilinx](https://github.com/Xilinx/meta-xilinx/tree/master/meta-xilinx-bsp/recipes-graphics)的repo中其实有*
 * **开机手动Load　Arm Mali GPU驱动**
     * 复制mali.ko文件到本机
         * 并且在/etc/rc.local文件中添加一行　```insmod mali.ko```
